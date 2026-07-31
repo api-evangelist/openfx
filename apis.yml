@@ -1,8 +1,24 @@
 aid: openfx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openfx.png
 name: OpenFX
-description: 'OpenFX is a company surfaced as a portfolio company of accel, northzone and added to the
-  API Evangelist network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OpenFX is a cross-border payment infrastructure provider delivering real-time foreign
+  exchange liquidity and settlement for institutional clients across emerging markets. Backed by Accel
+  and Northzone, it pairs traditional-finance reliability with blockchain-rail speed to settle fiat and
+  stablecoin payments in minutes across 40+ currency pairs and 25+ local payment rails, and exposes a
+  programmatic Trading API (REST, FIX and Streaming) to automate quotes, trades, deposits and
+  withdrawals. Serves remittance companies, FX on/off ramps, payment service providers and stablecoin
+  infrastructure providers.'
 url: https://raw.githubusercontent.com/api-evangelist/openfx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,16 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Cloud Saas
+- Payments
+- Cross-Border Payments
+- Foreign Exchange
+- Financial Services
+- Stablecoins
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/openfx-domain-security.yml
 - type: Website
   url: https://www.openfx.com/
+- type: Blog
+  url: https://www.openfx.com/blog
+- type: Support
+  url: https://www.openfx.com/faq
+- type: TermsOfService
+  url: https://www.openfx.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.openfx.com/privacy-policy
+- type: SignUp
+  url: https://www.openfx.com/get-a-demo
