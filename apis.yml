@@ -46,7 +46,7 @@ tags:
 - Payments
 - Cross-Border Payments
 - Foreign Exchange
-- Financial-Services
+- Financial Services
 - Stablecoins
 - Fintech
 tags_raw:
@@ -57,6 +57,7 @@ tags_raw:
 - Financial Services
 - Stablecoins
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
